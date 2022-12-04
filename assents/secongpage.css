@@ -1,0 +1,32 @@
+#principal{
+    display: flex;
+    width: 100%;
+    height: 107px;
+    border: 1px solid #CA7900;
+    background-color: #CA7900;
+}
+
+#principal div a{
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: none;
+    font-size: 36px;
+    justify-content:space-around;
+}
+
+/*.Card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #CA7900;
+    width: 1249px;
+    height: 216px;
+    border-radius: 40px;
+}
+
+.Card p{
+    text-align: center;
+    font-weight: 400;
+    font-size: 36px;
+}

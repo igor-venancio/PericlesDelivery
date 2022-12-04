@@ -23,8 +23,8 @@ body{
     align-items: center;
     flex-direction: column;
     background-color: #CA7900;
-    width: 70%;
-    height: 30%;
+    width: 50%;
+    height: 29%;
     border-radius: 40px;
 }
 
@@ -36,11 +36,12 @@ body{
 .Card_btn{
     display: flex;
     justify-content: space-evenly;
-    width: 30%;
+    height: 50px;
+    width: 40%;
 }
 
 .Card_btn button{
-    padding: 5px 30px;
+    padding: 5px 20px;
     background-color: #CA7900;
     font-size: 18px;
     font-weight: 600;
@@ -54,4 +55,11 @@ body{
     background-color: white;
     color: #CA7900;
     transition: all 3%;
+}
+
+.Card_img {
+    margin-top: 10px;
+    width: 164px;
+    height: 90px;
+    position: relative;
 }
